@@ -1,0 +1,105 @@
+// out: ../main.css
+@import "vars"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif
+
+html
+  font-size: 16px
+p
+  font-size: 2.5rem
+header
+  background: midnightblue
+  padding-left: 2%
+
+  #header-nav
+    height: header_size
+    align-items: center
+    display: flex
+    li
+      list-style: none
+      img
+        width: 75%
+#navbar-trigger
+  padding: 40px
+  width: 100%
+  text-align: center;
+  background: darken(midnightblue, 10)
+  color: white
+  svg
+    font-size: 60px
+
+#navbar
+  display: none
+  background: darken(midnightblue, 10)
+  text-align: center
+  li:last-child
+    border: none
+  li.selected
+    background: #E4833D
+  li
+    font-size: 45px
+    list-style: none
+    display: inline-block
+    width: 100%
+    height: 125px
+    line-height: 125px
+    border-bottom: 2px solid lighten(midnightblue, 50)
+    a
+      color: white
+      text-decoration: none
+      display: inline-block
+      height: 100%
+      width: 100%
+
+#carrousel
+  margin-top: 50px;
+  margin-bottom: 50px;
+  img
+    width: 100%;
+    height: auto;
+
+section#corpo
+  padding-left: 35px
+  padding-right: 35px
+  margin-bottom: 50px
+
+.box-header
+  background: #eeeff1
+  padding: 45px
+  margin-bottom: 75px
+  border-top: 10px midnightblue solid
+  color: midnightblue
+  h1
+    font-size: 4rem
+    font-weight: normal
+    text-transform: uppercase
+.noticia
+  padding-left: 35px
+  padding-right: 35px
+  padding-bottom: 50px
+  margin-bottom: 100px
+  border-bottom: lightgray 5px solid
+  h2
+    font-size: 2.72rem
+    padding-bottom: 15px
+  p
+    text-align: justify
+  div.readmore-box
+    padding-top: 10px
+    text-align: right
+    a
+      text-decoration: underline
+  span.subtitle
+    display: inline-block
+    font-size: 2.5rem
+    padding-bottom: 35px
+    color: #AAA
+    a
+      color lighten(midnightblue, 50)
+  a
+    color: lighten(midnightblue, 10)
+    text-decoration: none
