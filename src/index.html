@@ -7,70 +7,44 @@
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" ></script>
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery.collapsible.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
     <script src="js/script.js"></script>
-    <title></title>
+    <title>SolarIlhéus - Instituto Federal da Bahia</title>
   </head>
   <body>
-    <header>
-      <nav id="header-nav">
-        <li>
-          <a href="index.html"><img src="img/logo-solar.png" alt="SolarIlhéus" /></a>
-        </li>
-      </nav>
-    </header>
-    <div id="navbar-trigger">
-      <i class="fas fa-bars"></i>
-    </div>
-    <nav id=navbar>
-      <li class="selected"><a href="#">Início</a></li>
-      <li><a href="#">Notícias</a></li>
-      <li><a href="#">Artigos</a></li>
-      <li><a href="#">A Microestação</a></li>
-      <li><a href="#">O Projeto</a></li>
-    </nav>
-    <section id="corpo">
-      <div id="carrousel">
-        <img src="img/banner.jpg" alt="" />
+    <nav class="sl-navbar navbar navbar-expand-lg navbar-dark justify-content-center">
+      <a class="navbar-brand m-0" href="#"><img class="sl-navbar-logo w-sm-100" src="img/logo-solar.png"></a>
+
+      <button class="navbar-toggler py-3 w-100" type="button" data-toggle="collapse" data-target="#nav-items" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse w-100 sl-nav" id="nav-items">
+        <ul class="navbar-nav d-inline-flex w-100 justify-content-end text-center">
+          <li class="nav-item">
+            <a class="nav-link active px-4" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#">Notícias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#">Artigos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">A Microestação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#">O Projeto</a>
+          </li>
+        </ul>
       </div>
-      <section id="noticias">
-        <div class="box-header">
-          <h1>Notícias</h1>
-        </div>
-        <article class="noticia">
-          <a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
-          <span class="subtitle">29-05-2018    |    Publicado por: <a href="#">Augusto Gouveia</a></span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            fringilla odio id dapibus viverra. Ut tortor neque, lobortis et
-            volutpat sit amet, congue sit amet nisl...
-          </p>
-          <div class="readmore-box">
-            <a href="#">Leia Mais</a>
-          </div>
-        </article>
-        <article class="noticia">
-          <a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
-          <span class="subtitle">29-05-2018    |    Publicado por: <a href="#">Augusto Gouveia</a></span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            fringilla odio id dapibus viverra. Ut tortor neque, lobortis et
-            volutpat sit amet, congue sit amet nisl...
-          </p>
-          <div class="readmore-box">
-            <a href="#">Leia Mais</a>
-          </div>
-        </article><article class="noticia">
-          <a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
-          <span class="subtitle">29-05-2018    |    Publicado por: <a href="#">Augusto Gouveia</a></span>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            fringilla odio id dapibus viverra. Ut tortor neque, lobortis et
-            volutpat sit amet, congue sit amet nisl...
-          </p>
-          <div class="readmore-box">
-            <a href="#">Leia Mais</a>
-          </div>
-        </article>
-      </section>
-    </section>
+    </nav>
   </body>
 </html>
