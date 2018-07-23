@@ -1,22 +1,30 @@
 // out: ../main.css
 @import "vars"
 
+p
+  text-align justify
+  line-height 1.5
 
 .sl-navbar
   background $dark-blue
   padding: 0 !important
-
 .sl-navbar-logo
   max-width $logo-max-width
-
 .sl-nav
   background $dark-blue-shade
 .sl-nav li
-  padding-top: .25rem
-  padding-bottom: .25rem
+  padding-top: $sp-xsmall
+  padding-bottom: $sp-xsmall
+
+.sl-show-all
+  display inline-block
+  min-width 50%
+  margin-top 2.5rem
+  padding $sp-small
+  text-align center
 
 @media (min-width: 992px)
   .sl-navbar
-    padding: .25rem 1rem !important
+    padding: $sp-xsmall $sp-xlarge !important
   .sl-nav
     background none
